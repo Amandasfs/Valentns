@@ -41,9 +41,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # IMPORTANTE: Garanta que o caminho aponta para a pasta de build gerada
-          # Geralmente é 'dist' para Vite, 'build' para CRA.
-          path: 'valentines-checker/dist' 
+          # IMPORTANTE: Aponte para a pasta dist DENTRO da subpasta
+          path: 'valentines-checker/dist'
 
   deploy:
     environment:
