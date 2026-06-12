@@ -1,5 +1,4 @@
-import { useState, useMemo, ReactNode } from "react";
-
+import { useState, useMemo, type ReactNode } from "react";
 // Certifique-se de que os caminhos estão corretos no seu projeto
 import img1 from "../assets/1.png";
 import img2 from "../assets/2.png";
